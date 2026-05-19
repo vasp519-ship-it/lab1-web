@@ -1,0 +1,63 @@
+/* ШРИФТИ (варіант 7) */
+body {
+    font-family: Muli, sans-serif;
+}
+
+/* Заголовки */
+h1, h2, h3 {
+    font-family: "Space Mono", monospace;
+    color: #1E40AF;
+    text-align: center;
+}
+
+/* Підзаголовок */
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* МЕНЮ */
+.menu {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1E40AF;
+    font-weight: bold;
+}
+
+/* СПИСКИ без маркерів */
+.no-style {
+    list-style-type: none;
+}
+
+/* ТАБЛИЦЯ */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #1E40AF;
+    padding: 8px;
+}
+
+/* ЗЕБРА */
+tr:nth-child(even) {
+    background-color: #EFF6FF;
+}
+
+/* ЗОБРАЖЕННЯ */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
